@@ -245,7 +245,7 @@ function sum(a, b) {
 }
 ```
 
-Tais funções são chamadas ["puras"](https://en.wikipedia.org/wiki/Pure_function) porque elas não tentam alterar suas entradas e sempre retornan o mesmo resultado para as mesmas entradas.
+Tais funções são chamadas ["puras"](https://en.wikipedia.org/wiki/Pure_function) porque elas não tentam alterar suas entradas e sempre retornam o mesmo resultado para as mesmas entradas.
 
 Em contraste, essa função é impura porque altera sua própria entrada:
 
@@ -257,6 +257,6 @@ function withdraw(account, amount) {
 
 React é bastante flexível mas tem uma única regra estrita:
 
-**Todos os componentes React tem que agir como funções puras em relação ao seus props.**
+**Todos os componentes React tem que agir como funções puras em relação aos seus props.**
 
 Obviamente, as UIs de aplicativos são dinâmicas e mudam com o tempo. Na [próxima seção](/docs/state-and-lifecycle.html), nós vamos introduzir um novo conceito de "state". O state permite aos componentes React alterar sua saída ao longo do tempo em resposta a ações do usuário, respostas de rede e quaisquer outras coisas, sem violar essa regra.
